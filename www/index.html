@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!-- 引入样式 -->
+<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<!-- 引入组件库 -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<body>
+<div id="app">
+    <div class="confirm-box" style="text-align: center;padding-top: 50px;">
+        <el-input v-model="amount" style="display: inline-block;width: 200px;"></el-input>
+        <el-button @click="submit()" type="primary">确定</el-button>
+    </div>
+</div>
+</body>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data(){
+            return{
+                message: 'Hello Vue!',
+                amount:0.1
+            }
+        },
+        methods:{
+            submit(){
+                alert('submit')
+            }
+        }
+    })
+</script>
+
+</html>
