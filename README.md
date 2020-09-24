@@ -1,4 +1,4 @@
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=webxiaoz&count_private=true)
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=webxiaoz)](https://github.com/anuraghazra/github-readme-stats)
 ## node.js-alpay-f2f
 #### 
 ##### 
